@@ -2,7 +2,9 @@
 
 Desktop application built with Python and PyQt6 for batch metadata removal, revision cleaning, and cryptographic hash randomization across office documents and PDF files.
 
-> **Note on Antivirus Detections:** Standalone Windows executables built with packaging tools may trigger false positives on some antivirus engines. The project is 100% open source.
+> **Note on Antivirus Detections:**
+> Standalone Windows executables built with packaging tools may trigger 2-3 false positive detections on some antivirus engines. 
+> The project is 100% open source. Check our [VirusTotal Report](https://www.virustotal.com/gui/file/89f66d20f510d5acb7aa5a7fcde2bdfde4d490a337355fd946f0f258c8cd2a37?nocache=1).
 
 ---
 
