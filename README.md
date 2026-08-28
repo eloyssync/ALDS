@@ -5,6 +5,7 @@ High-performance desktop application built with C++ and native Win32 API for bat
 ---
 
 ### Features
+<img width="954" height="663" alt="image" src="https://github.com/user-attachments/assets/7e583db5-8c15-47b4-9a0f-419f9fb43e2a" />
 
 * **Supported Formats:**
   * **PDF:** Strips Author, Producer, Creator metadata, creation/modification timestamps, and raw XML XMP packet streams.
