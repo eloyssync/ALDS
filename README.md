@@ -23,6 +23,8 @@ Desktop application built with Python and PyQt6 for batch metadata removal, revi
 
 ---
 
+Download ALDS v1.0.0: [https://github.com/eloyssync/CLEANERelsync/releases/tag/v1.0.](https://github.com/eloyssync/ALDS/releases/tag/v1.0.0)
+
 ### Requirements
 
 * Python 3.10 or higher
