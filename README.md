@@ -1,8 +1,6 @@
 # ALDS (Anti-Leak Document Sanitizer)
 
-Desktop application built with Python and PyQt6 for batch metadata removal, revision cleaning, and cryptographic hash randomization across office documents and PDF files.
-
-> **Note on Antivirus Detections:** Standalone Windows executables built with packaging tools may trigger false positives on some antivirus engines. The project is 100% open source.
+High-performance desktop application built with C++ and native Win32 API for batch metadata removal, revision cleaning, and cryptographic hash randomization across office documents and PDF files.
 
 ---
 
@@ -14,36 +12,36 @@ Desktop application built with Python and PyQt6 for batch metadata removal, revi
 * **Hash Randomization:**
   * Appends non-breaking trailing structural tokens to modify MD5, SHA-1, and SHA-256 file hashes without corrupting document integrity.
 * **Interface & UX:**
-  * Drag and drop support for individual files and whole directories.
-  * Multi-threaded processing (`QThread`) for a responsive, non-blocking UI.
+  * Native Win32 Drag & Drop support for individual files and whole directories.
+  * Asynchronous multi-threaded processing for an ultra-responsive, non-blocking UI.
   * Real-time file status tracking, error validation, and activity logs.
   * Automatic output directory generation (`sanitized_output/`).
 
 ---
+[Downloads ALDS v2.0.0](https://github.com/eloyssync/ALDS/releases/tag/v2.0.0)
 
 ### Requirements
 
-* Python 3.10 or higher
-* PyQt6
-* pypdf, python-docx, openpyxl, python-pptx
+* Windows 10 / 11 (x64)
+* C++20 compatible compiler (MSVC / Clang / GCC)
 
 ---
 
-### Installation & Run
+### Build & Run
 
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/eloyssync/ALDS.git
 cd ALDS
-Install dependencies:
+Compile:
 
-Bash
-pip install -r requirements.txt
-Run the application:
+Open ALDS.sln in Visual Studio 2022.
 
-Bash
-python doc_sanitizer.py
-(Or run start.bat on Windows)
+Set configuration to Release | x64.
+
+Build Solution (Build -> Build Solution or Ctrl + Shift + B).
+
+The compiled binary will be located in the x64/Release/ directory.
 
 License
 Distributed under the MIT License. See LICENSE for more information.
